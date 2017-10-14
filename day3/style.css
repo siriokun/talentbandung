@@ -38,6 +38,9 @@ a:hover {
     overflow: hidden;
     height: 300px;
 }
+.video {
+    background-image: url(img/bg-video.jpg);
+}
 .overlay{
     background: rgba(49, 29, 94, 0.5);
     overflow: hidden;
@@ -57,6 +60,11 @@ a:hover {
 .logo {
     float: left;
     margin: 20px;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 1024px;
 }
 
 ul {
