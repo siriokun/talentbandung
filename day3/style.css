@@ -1,18 +1,49 @@
 body {
     background: #f7f5f1;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
     color: blue;
+    margin: 0;
+    padding-bottom: 70px
 }
 
+/* 
+biru = #00e0d0
+ungu gelap = #09052f
+ungu = #311d5e
+
+*/
 a {
-    color: #c25245;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #00e0d0;
+}
+.header {
+    background-image: url(img/bg-header.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
+}
+.overlay{
+    background: rgba(49, 29, 94, 0.5);
+    overflow: hidden;
+    height: 300px;
+}
+.intro {
+    text-align: center;
+    color: #fff;
+    clear: both;
 }
 .logo {
     float: left;
+    margin: 20px;
 }
 
 ul {
     float: right;
+    margin: 37px;
 }
 
 li {
@@ -23,7 +54,6 @@ li {
 
 h1 {
     font-size: 30px;
-    color: green;
 }
 
 table {
@@ -43,7 +73,4 @@ th {
 }
 hr {
     clear: both;
-}
-img {
-    border-radius: 100%;
 }
