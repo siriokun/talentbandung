@@ -16,11 +16,23 @@ ungu = #311d5e
 a {
     color: #ffffff;
     text-decoration: none;
+    transition: .3s;
 }
 a:hover {
     color: #00e0d0;
 }
-.header {
+.btn {
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background: #fff;
+    border: 1px solid #ffffff;
+}
+.header, .video {
     background-image: url(img/bg-header.jpg);
     background-size: cover;
     overflow: hidden;
@@ -31,10 +43,16 @@ a:hover {
     overflow: hidden;
     height: 300px;
 }
-.intro {
+.intro, .btn-play {
     text-align: center;
     color: #fff;
     clear: both;
+}
+.btn-play {
+    margin: 90px 0;
+}
+.btn-play a:hover {
+    color: inherit;
 }
 .logo {
     float: left;
