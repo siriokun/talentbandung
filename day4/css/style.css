@@ -48,3 +48,8 @@
   height: 10px;
   border-radius: 100%;
 }
+/* content */
+.content .col {
+  padding: 5rem;
+  line-height: 2;
+}
