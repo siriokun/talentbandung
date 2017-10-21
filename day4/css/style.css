@@ -13,6 +13,12 @@
   background-size: cover;
   overflow: hidden;
 }
+.header a {
+  color: #fff;
+}
+.header .dropdown-item {
+  color: #333;
+}
 .overlay{
   background: rgba(49, 29, 94, 0.5);
   color: #fff;
