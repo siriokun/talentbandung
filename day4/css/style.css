@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-success {
+  background-color: #0c631b;
+}
+.intro {
+  margin: 10rem 0;
+}
+.header {
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.overlay{
+  background: rgba(49, 29, 94, 0.5);
+  color: #fff;
+  overflow: hidden;
+}
+.btn, .btn:hover {
+  text-transform: uppercase;
+  color: #00e0d0;
+  border-color: #00e0d0;
+}
+.btn:hover {
+  background-color: #00e0d0;
+  color: #000;
+}
