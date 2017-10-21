@@ -50,7 +50,9 @@
 }
 /* content */
 .content .col-md {
-  padding: 5rem;
+  background-position: center center;
+  background-size: cover;
+  padding: 8rem 5rem;
   line-height: 2;
   min-height: 100vh;
 }
