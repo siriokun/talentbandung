@@ -33,3 +33,9 @@
   background-color: #00e0d0;
   color: #000;
 }
+
+/* slider */
+#slider-home .carousel-indicators {
+  position: relative;
+  top: 3rem;
+}
