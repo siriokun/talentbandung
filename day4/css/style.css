@@ -11,6 +11,7 @@
 .header {
   background: url(../img/bg-header.jpg) center center no-repeat fixed;
   background-size: cover;
+  overflow: hidden;
 }
 .header a {
   color: #fff;
@@ -21,6 +22,7 @@
 .overlay{
   background: rgba(49, 29, 94, 0.5);
   color: #fff;
+  overflow: hidden;
 }
 .header>.overlay {
   min-height: 100vh;
