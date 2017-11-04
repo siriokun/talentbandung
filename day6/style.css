@@ -18,7 +18,9 @@ h1 {
 .container {
     max-width: 900px;
     margin:15px;
+    overflow: hidden;
 }
+
 
 @media (min-width:900px) {
     .container {
@@ -26,7 +28,12 @@ h1 {
         color: #fff;
         margin:0 auto;
         padding: 0 15px 15px;
-    }  
+    } 
+    .col {
+        float: left;
+        margin: 0 5%;
+        width: 40%;
+    }
 }
 
 .left {
